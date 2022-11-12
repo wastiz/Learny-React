@@ -1,0 +1,19 @@
+
+nav {
+    ul {
+        li {
+            list-style-type: none;
+            a {
+                text-decoration: none;
+                color: white;
+                text-align: center;
+            }
+        }
+        li::before{
+            content: url(../../img/home.svg);
+            width: 24px;
+            height: 24px;
+            text-align: center;
+        }
+    }
+}
