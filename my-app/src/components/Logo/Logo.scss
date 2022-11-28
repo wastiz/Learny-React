@@ -1,7 +1,9 @@
-div {
+.logo {
     display: flex;
     flex-direction: row;
     gap: 10%;
+    margin-top: 82px;
+    justify-content: center;
     h1 {
         color: white;
         font-size: 28px;

@@ -1,12 +1,15 @@
-import './Aside.scss'
+import './Aside.scss';
+import React from 'react';
 import Logo from '../Logo/Logo';
 import Navigation from '../Navigation/Navigation';
+import Slider from '../Slider/Slider'
 
 function Aside () {
     return(
         <aside>
             <Logo></Logo>
-            <Navigation></Navigation>
+            <Navigation className='navigation'></Navigation>
+            <Slider></Slider>
         </aside>
     )
 }
